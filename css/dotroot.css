@@ -27,6 +27,10 @@
 
 /*services*/
 
+ul {
+    list-style-type: none;
+}
+
 #services {
     background-color: #FFFFFF;
     color: #AA1E22;
@@ -42,9 +46,9 @@
     padding: 0 0 19%;
 }
 
-#services h2 {
-    color: #DED8C2;
-    font-family: 'VibrationGothicRegular';
+#services h1 {
+    color: darkred;
+    font-family: ;
     font-size: 50px;
     letter-spacing: 2px;
     text-align: center;
@@ -54,9 +58,9 @@
 }
 
 #swrap {
-    left: 19%;
-    top: 34%;
-    width: 63%;
+    left: 18.5%;
+    top: 37.5%;
+    width: 063%;
     float: left;
     position: absolute;
 }
@@ -82,26 +86,26 @@
 }
 
 #grid li#icoapplication {
-    left: 8%;
-    top: 24%;
+    left: 46%;
+    top: 1.7%;
 }
 
 #grid li#icowebsite {
-    left: 68%;
-    top: 10.2%;
+    left: 79%;
+    top: 25%;
 }
 
 #grid li#icographics {
-    left: 79%;
-    top: 18.5%;
+    left: 75%;
+    top: 59.5%;
 }
 
 #grid li#icocorvideos {
-    left: 86%;
-    top: 31%;
+    left: 15%;
+    top: 60%;
 }
 
 #grid li#icomultimedia {
-    left: 86%;
-    top: 44%;
+    left: 5.8%;
+    top: 25%;
 }
