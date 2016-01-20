@@ -1,0 +1,79 @@
+/*services*/
+
+#services {
+    background: white;
+}
+
+#loadingbox .servicesbg {
+    padding: 0 4%;
+}
+
+#services .servicesbg {
+    float: left;
+    position: relative;
+    padding: 0 0 19%;
+}
+
+#services h2 {
+    color: #DED8C2;
+    font-family: 'VibrationGothicRegular';
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+}
+
+#swrap {
+    left: 19%;
+    top: 34%;
+    width: 63%;
+    float: left;
+    position: absolute;
+}
+
+.negmarg {
+    float: left;
+    margin-top: -1em;
+    width: 100%;
+}
+
+#grid {
+    width: 100%;
+}
+
+#grid li {
+    cursor: pointer;
+    float: left;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10%;
+    z-index: 9999;
+}
+
+#grid li#icoapplication {
+    left: 8%;
+    top: 24%;
+}
+
+#grid li#icowebsite {
+    left: 68%;
+    top: 10.2%;
+}
+
+#grid li#icographics {
+    left: 79%;
+    top: 18.5%;
+}
+
+#grid li#icocorvideos {
+    left: 86%;
+    top: 31%;
+}
+
+#grid li#icomultimedia {
+    left: 86%;
+    top: 44%;
+}
