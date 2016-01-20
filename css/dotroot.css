@@ -1,7 +1,35 @@
+#mainNav {
+    background-color: #AA1E22;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#about{
+    background-color: #AA1E22;
+    color: white;
+}
+
+#portfolio{
+    background-color: #AA1E22;
+    color: white;
+}
+
+#ourteam{
+    background-color: #FFFFFF;
+    color: #AA1E22;
+}
+
+#contactus{
+    background-color: #AA1E22;
+    color: white;
+}
+
+
 /*services*/
 
 #services {
-    background: white;
+    background-color: #FFFFFF;
+    color: #AA1E22;
 }
 
 #loadingbox .servicesbg {
