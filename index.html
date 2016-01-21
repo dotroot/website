@@ -160,7 +160,138 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">Portfolio</h2>
+                        <style>
+        @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #6C6D71;
+            color: #B9B5C7;
+            font: 14px 'Open Sans', sans-serif;
+        }
+        /* You can safely remove the next two lines */
+        
+        .top {
+            padding-right: 20px;
+            background: #6C6D71;
+            text-align: right;
+        }
+        
+        a {
+            color: rgba(255, 255, 255, 0.6);
+            text-transform: uppercase;
+            text-decoration: none;
+            line-height: 42px;
+        }
+        
+        h1 {
+            padding: 100px 0;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        p {
+            margin: 0 0 20px;
+            line-height: 1.5;
+        }
+        
+        .main {
+            margin: 0 auto;
+            min-width: 320px;
+            max-width: 800px;
+        }
+        
+        .content {
+            background: #fff;
+            color: #373737;
+        }
+        
+        .content > div {
+            display: none;
+            padding: 20px 25px 5px;
+        }
+        
+        input {
+            display: none;
+        }
+        
+        label {
+            display: inline-block;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        label:hover {
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        input:checked + label {
+            background: #6C6D71;
+            color: #fff;
+        }
+        
+        #tab1:checked ~ .content #content1,
+        #tab2:checked ~ .content #content2,
+        #tab3:checked ~ .content #content3,
+        #tab4:checked ~ .content #content4 {
+            display: block;
+        }
+        
+        @media screen and (max-width: 400px) {
+            label {
+                padding: 15px 10px;
+            }
+        }
+    </style>
 
+                     <div class="main">
+
+        <input id="tab1" type="radio" name="tabs" checked>
+        <label for="tab1">Competition Won</label>
+
+        <input id="tab2" type="radio" name="tabs">
+        <label for="tab2">Product</label>
+
+        <input id="tab3" type="radio" name="tabs">
+        <label for="tab3">Clients</label>
+
+        <div class="content">
+            <div id="content1">
+                <p>
+                    Competition Won Timeline here
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem autem, laudantium, doloremque fugiat deserunt quod saepe ut placeat ducimus rem asperiores eius dicta at neque, iste accusantium optio ea perferendis!
+                </p>
+            </div>
+
+            <div id="content2">
+                <p>
+                    Product Kaling
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatum eius vel, a vero quo impedit reprehenderit ut minima ullam, et porro exercitationem dicta adipisci laboriosam. Similique eaque cumque fuga.
+                </p>
+            </div>
+            <div id="content3">
+                <p>
+                    Content about Client
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem autem, laudantium, doloremque fugiat deserunt quod saepe ut placeat ducimus rem asperiores eius dicta at neque, iste accusantium optio ea perferendis!
+                </p>
+            </div>
+        </div>
+
+    </div>
                 </div>
             </div>
         </div>

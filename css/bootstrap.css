@@ -4985,6 +4985,7 @@ a.badge:focus {
 }
 .jumbotron .container {
   max-width: 100%;
+    max-height: auto;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
