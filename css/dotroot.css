@@ -22,6 +22,7 @@
 #contactus{
     background-color: #AA1E22;
     color: white;
+    padding: 30px 0;
 }
 
 
@@ -108,4 +109,13 @@ ul {
 #grid li#icomultimedia {
     left: 5.8%;
     top: 25%;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    color: #AA1E22;
+    padding: 20px 0;
 }
