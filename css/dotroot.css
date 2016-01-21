@@ -4,22 +4,22 @@
     font-weight: 700;
 }
 
-#about{
+#about {
     background-color: #AA1E22;
     color: white;
 }
 
-#portfolio{
+#portfolio {
     background-color: #AA1E22;
     color: white;
 }
 
-#ourteam{
+#ourteam {
     background-color: #FFFFFF;
     color: #AA1E22;
 }
 
-#contactus{
+#contactus {
     background-color: #AA1E22;
     color: white;
     padding: 30px 0;
@@ -111,6 +111,153 @@ ul {
     top: 25%;
 }
 
+
+/*wrapApplication*/
+
+.imgWrap1 {
+    position: relative;
+    height: 140px;
+    width: 70px;
+}
+
+.imgDescription1 {
+    position: relative;
+    top: 250%;
+    right: 190%;
+    width: 500%;
+    height: 30%;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap1:hover .imgDescription1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*wrapWebsites*/
+
+.imgWrap2 {
+    position: relative;
+    height: 100px;
+    width: 134.5px;
+}
+
+.imgDescription2 {
+    position: relative;
+    top: 165%;
+    right: 328%;
+    width: 300%;
+    height: 30%;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap2:hover .imgDescription2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*wrapGraphics*/
+
+.imgWrap3 {
+    position: relative;
+    height: 160px;
+    width: 70px;
+}
+
+.imgDescription3 {
+    position: relative;
+    bottom: 138%;
+    right: 440%;
+    width: 300%;
+    height: 30%;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap3:hover .imgDescription3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*wrapCorVid*/
+
+.imgWrap4 {
+    position: relative;
+    height: 140px;
+    width: 117px;
+}
+
+.imgDescription4 {
+    position: relative;
+    bottom: 115%;
+    left: 119%;
+    width: 300%;
+    height: 30%;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap4:hover .imgDescription4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*wrapMultimedia*/
+
+.imgWrap5 {
+    position: relative;
+    height: 140px;
+    width: 117px;
+}
+
+.imgDescription5 {
+    position: relative;
+    top: 92%;
+    left: 190%;
+    width: 300%;
+    height: 30%;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap5:hover .imgDescription5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*END SERVICES*/
 
 
 /*FOOTER*/

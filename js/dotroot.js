@@ -1,5 +1,5 @@
 	/*services*/
-	var txt_orig = $("#services h2").html();
+	var txt_orig = $("#services h1").html();
 
 	$("#grid li").bind("mouseenter", function () {
 
