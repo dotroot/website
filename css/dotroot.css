@@ -1,3 +1,38 @@
+/*mobile*/
+
+@media (max-width: 768px) {
+    #services .imgWrap1 {
+        width: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services .imgWrap2 {
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services .imgWrap3 {
+        width: 23px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services .imgWrap4 {
+        width: 43px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services .imgWrap5 {
+        width: 42px;
+    }
+}
+
+
+/*end mobile*/
+
 #mainNav {
     background-color: #AA1E22;
     text-transform: uppercase;
@@ -50,7 +85,7 @@ ul {
 #services h1 {
     color: darkred;
     font-family: ;
-    font-size: 50px;
+    font-size: 35px;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
@@ -59,9 +94,9 @@ ul {
 }
 
 #swrap {
-    left: 18.5%;
-    top: 37.5%;
-    width: 063%;
+    left: 20%;
+    top: 33%;
+    width: 60%;
     float: left;
     position: absolute;
 }
@@ -89,26 +124,32 @@ ul {
 #grid li#icoapplication {
     left: 46%;
     top: 1.7%;
+    width: 45px;
 }
 
 #grid li#icowebsite {
-    left: 79%;
+    left: 79.5%;
     top: 25%;
+    width: 81px;
 }
 
 #grid li#icographics {
-    left: 75%;
-    top: 59.5%;
+    left: 70%;
+    top: 60.5%;
+    width: 43px;
 }
 
 #grid li#icocorvideos {
-    left: 15%;
+    left: 19%;
     top: 60%;
+    height: 80px;
+    width: 67px;
 }
 
 #grid li#icomultimedia {
     left: 5.8%;
     top: 25%;
+    width: 68px;
 }
 
 
@@ -116,14 +157,14 @@ ul {
 
 .imgWrap1 {
     position: relative;
-    height: 140px;
-    width: 70px;
+    height: 88px;
+    width: 45px;
 }
 
 .imgDescription1 {
     position: relative;
-    top: 250%;
-    right: 190%;
+    top: 267%;
+    right: 180%;
     width: 500%;
     height: 30%;
     color: #fff;
@@ -145,14 +186,14 @@ ul {
 
 .imgWrap2 {
     position: relative;
-    height: 100px;
-    width: 134.5px;
+    height: 65px;
+    width: 81px;
 }
 
 .imgDescription2 {
     position: relative;
     top: 165%;
-    right: 328%;
+    right: 336%;
     width: 300%;
     height: 30%;
     color: #fff;
@@ -174,14 +215,14 @@ ul {
 
 .imgWrap3 {
     position: relative;
-    height: 160px;
-    width: 70px;
+    height: 98px;
+    width: 43px;
 }
 
 .imgDescription3 {
     position: relative;
-    bottom: 138%;
-    right: 440%;
+    bottom: 160%;
+    right: 385%;
     width: 300%;
     height: 30%;
     color: #fff;
@@ -203,14 +244,14 @@ ul {
 
 .imgWrap4 {
     position: relative;
-    height: 140px;
-    width: 117px;
+    height: 80px;
+    width: 67px;
 }
 
 .imgDescription4 {
     position: relative;
-    bottom: 115%;
-    left: 119%;
+    bottom: 169%;
+    left: 115%;
     width: 300%;
     height: 30%;
     color: #fff;
@@ -232,14 +273,14 @@ ul {
 
 .imgWrap5 {
     position: relative;
-    height: 140px;
-    width: 117px;
+    height: 80px;
+    width: 68px;
 }
 
 .imgDescription5 {
     position: relative;
-    top: 92%;
-    left: 190%;
+    top: 112%;
+    left: 220%;
     width: 300%;
     height: 30%;
     color: #fff;
