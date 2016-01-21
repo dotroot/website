@@ -20,8 +20,9 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-
-
+    <!-- Portfolio Css Link -->
+    <link rel="stylesheet" href="css/verticalTab.css">
+    
 </head>
 
 <body>
@@ -160,138 +161,27 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">Portfolio</h2>
-                        <style>
-        @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-        *,
-        *:before,
-        *:after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background: #6C6D71;
-            color: #B9B5C7;
-            font: 14px 'Open Sans', sans-serif;
-        }
-        /* You can safely remove the next two lines */
-        
-        .top {
-            padding-right: 20px;
-            background: #6C6D71;
-            text-align: right;
-        }
-        
-        a {
-            color: rgba(255, 255, 255, 0.6);
-            text-transform: uppercase;
-            text-decoration: none;
-            line-height: 42px;
-        }
-        
-        h1 {
-            padding: 100px 0;
-            font-weight: 400;
-            text-align: center;
-        }
-        
-        p {
-            margin: 0 0 20px;
-            line-height: 1.5;
-        }
-        
-        .main {
-            margin: 0 auto;
-            min-width: 320px;
-            max-width: 800px;
-        }
-        
-        .content {
-            background: #fff;
-            color: #373737;
-        }
-        
-        .content > div {
-            display: none;
-            padding: 20px 25px 5px;
-        }
-        
-        input {
-            display: none;
-        }
-        
-        label {
-            display: inline-block;
-            padding: 15px 25px;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        label:hover {
-            color: #fff;
-            cursor: pointer;
-        }
-        
-        input:checked + label {
-            background: #6C6D71;
-            color: #fff;
-        }
-        
-        #tab1:checked ~ .content #content1,
-        #tab2:checked ~ .content #content2,
-        #tab3:checked ~ .content #content3,
-        #tab4:checked ~ .content #content4 {
-            display: block;
-        }
-        
-        @media screen and (max-width: 400px) {
-            label {
-                padding: 15px 10px;
-            }
-        }
-    </style>
 
-                     <div class="main">
-
-        <input id="tab1" type="radio" name="tabs" checked>
-        <label for="tab1">Competition Won</label>
-
-        <input id="tab2" type="radio" name="tabs">
-        <label for="tab2">Product</label>
-
-        <input id="tab3" type="radio" name="tabs">
-        <label for="tab3">Clients</label>
-
-        <div class="content">
-            <div id="content1">
-                <p>
-                    Competition Won Timeline here
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem autem, laudantium, doloremque fugiat deserunt quod saepe ut placeat ducimus rem asperiores eius dicta at neque, iste accusantium optio ea perferendis!
-                </p>
-            </div>
-
-            <div id="content2">
-                <p>
-                    Product Kaling
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatum eius vel, a vero quo impedit reprehenderit ut minima ullam, et porro exercitationem dicta adipisci laboriosam. Similique eaque cumque fuga.
-                </p>
-            </div>
-            <div id="content3">
-                <p>
-                    Content about Client
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem autem, laudantium, doloremque fugiat deserunt quod saepe ut placeat ducimus rem asperiores eius dicta at neque, iste accusantium optio ea perferendis!
-                </p>
-            </div>
-        </div>
-
-    </div>
+                    <div class="tabs">
+                        <nav> <a>Competition Won</a> <a>Products</a> <a>Clients</a> </nav>
+                        <div class="content">
+                            <p>Competition Won Insert Time Line Here</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nemo sint possimus est molestiae quaerat voluptas tempore ipsa, alias officia autem tempora repellendus nihil, et quod eligendi hic, cum error?</p>
+                            <p>Sed vitae consectetur urna. Aenean facilisis vitae massa quis auctor. Ut at ullamcorper magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et venenatis justo. Vivamus feugiat purus sit amet mi tincidunt, id egestas erat sodales. Vivamus dapibus rhoncus feugiat. Quisque pulvinar eu est vitae facilisis. Maecenas ac vestibulum lectus, in auctor turpis. In ultrices massa eget finibus volutpat. Nam eu nibh quis purus euismod eleifend. Fusce quis mattis erat. Praesent aliquet urna non imperdiet condimentum. Praesent a venenatis tortor. Donec porttitor enim nec facilisis volutpat.</p>
+                            <p>Sed vitae consectetur urna. Aenean facilisis vitae massa quis auctor. Ut at ullamcorper magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et venenatis justo. Vivamus feugiat purus sit amet mi tincidunt, id egestas erat sodales. Vivamus dapibus rhoncus feugiat. Quisque pulvinar eu est vitae facilisis. Maecenas ac vestibulum lectus, in auctor turpis. In ultrices massa eget finibus volutpat. Nam eu nibh quis purus euismod eleifend. Fusce quis mattis erat. Praesent aliquet urna non imperdiet condimentum. Praesent a venenatis tortor. Donec porttitor enim nec facilisis volutpat.</p>
+                            <p>Sed vitae consectetur urna. Aenean facilisis vitae massa quis auctor. Ut at ullamcorper magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et venenatis justo. Vivamus feugiat purus sit amet mi tincidunt, id egestas erat sodales. Vivamus dapibus rhoncus feugiat. Quisque pulvinar eu est vitae facilisis. Maecenas ac vestibulum lectus, in auctor turpis. In ultrices massa eget finibus volutpat. Nam eu nibh quis purus euismod eleifend. Fusce quis mattis erat. Praesent aliquet urna non imperdiet condimentum. Praesent a venenatis tortor. Donec porttitor enim nec facilisis volutpat.</p>
+                            <p>Sed vitae consectetur urna. Aenean facilisis vitae massa quis auctor. Ut at ullamcorper magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et venenatis justo. Vivamus feugiat purus sit amet mi tincidunt, id egestas erat sodales. Vivamus dapibus rhoncus feugiat. Quisque pulvinar eu est vitae facilisis. Maecenas ac vestibulum lectus, in auctor turpis. In ultrices massa eget finibus volutpat. Nam eu nibh quis purus euismod eleifend. Fusce quis mattis erat. Praesent aliquet urna non imperdiet condimentum. Praesent a venenatis tortor. Donec porttitor enim nec facilisis volutpat.</p>
+                        </div>
+                        <div class="content">
+                            <p>Product Insert Hover Here (Kaling)</p>
+                            <p>Ut molestie, neque ac malesuada aliquet, orci ligula ornare lorem, et sagittis diam dolor id odio. Maecenas blandit dolor nec tincidunt vulputate. Proin ultrices dui vulputate ullamcorper molestie. Sed non orci id tortor commodo molestie. Curabitur lectus lacus, iaculis eu quam nec, congue rutrum felis. Morbi rhoncus metus a diam mattis, vel lacinia lectus ultricies. Quisque aliquet magna justo, quis pretium purus vulputate sit amet. Vivamus vehicula nisl eu sollicitudin efficitur. Curabitur egestas, felis vel tempus efficitur, felis nibh fermentum nulla, at gravida risus mauris sed sapien. Donec lobortis mi convallis tortor iaculis, sit amet vulputate libero mollis. Cras sagittis ligula eget est sodales tempor.</p>
+                        </div>
+                        <div class="content">
+                            <p>Insert Information About Clients Here</p>
+                            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tempor accumsan purus a rutrum. Nam congue tempor dui, vel auctor dolor tincidunt id. Proin fringilla consectetur urna. Fusce nec sodales turpis, eu rhoncus enim. Pellentesque pretium, dui et feugiat venenatis, sapien augue molestie quam, ac vulputate arcu quam et mauris. Duis lectus mi, congue ac tortor vel, maximus venenatis sem. Nam eget cursus sapien, sit amet rhoncus lacus. Vestibulum est justo, scelerisque ac erat eu, fermentum suscipit tellus. Aliquam velit nisi, feugiat ut arcu et, finibus efficitur lectus.</p>
+                            <p>Nulla aliquam dapibus nunc, sed convallis sem semper sit amet. Mauris et ullamcorper lorem. Donec volutpat egestas massa, vitae porttitor mi venenatis sit amet. Nulla condimentum fermentum risus non mattis. Mauris ut posuere erat. Duis vel ante sit amet augue blandit facilisis. Nulla congue turpis at imperdiet porta. Nullam quis aliquet augue. Duis et arcu in augue fringilla sodales. Aliquam pulvinar elit non iaculis egestas. Nam risus enim, malesuada id augue a, sagittis pharetra quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend, ligula eget ultrices venenatis, metus neque finibus tortor, sit amet venenatis turpis nibh et odio.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -542,6 +432,45 @@
 
     <!-- jQuery -->
     <script src="js/jquery-2.2.0.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript for Portfolio-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function () {
+            $('.tabs nav a').on('click', function () {
+                show_content($(this).index());
+            });
+
+            show_content(0);
+
+            function show_content(index) {
+                // Make the content visible
+                $('.tabs .content.visible').removeClass('visible');
+                $('.tabs .content:nth-of-type(' + (index + 1) + ')').addClass('visible');
+
+                // Set the tab to selected
+                $('.tabs nav a.selected').removeClass('selected');
+                $('.tabs nav a:nth-of-type(' + (index + 1) + ')').addClass('selected');
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- /Bootstrap Core JavaScript for Portfolio-->
 
     <!-- Bootstrap Core JavaScript for our Team -->
     <script src="js/bootstrap.min.js"></script>

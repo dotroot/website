@@ -1,0 +1,61 @@
+.tabs {
+    margin: 0px 20px;
+    position: relative;
+    background: #FFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 900px;
+}
+
+.tabs nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: #6C6D71;
+    color: #E3DED6;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    width: 150px;
+}
+
+.tabs nav a {
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.tabs nav a:hover,
+.tabs nav a.selected {
+    background: #7C131C;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tabs .content {
+    padding: 20px 0px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    color: #6C5D5D;
+    width: 0px;
+    height: 500px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.1s linear 0s;
+}
+
+.tabs .content.visible {
+    padding: 20px;
+    width: calc(100% - 150px);
+    height: auto;
+    overflow: visible;
+    opacity: 1;
+}
+
+.tabs .content p {
+    padding-bottom: 2px;
+}
+
+.tabs .content p:last-of-type {
+    padding-bottom: 0px;
+}
