@@ -24,6 +24,45 @@
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- Portfolio Css Link -->
     <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">
+    <link href="one-page-wonder.css" rel="stylesheet">
+
+    <style>
+        #custom_carousel .item {
+            color: #000;
+            background-color: #eee;
+            padding: 20px 0;
+        }
+        
+        #custom_carousel .controls {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0;
+            margin: 0;
+            white-space: nowrap;
+            text-align: center;
+            position: relative;
+            background: #ddd;
+        }
+        
+        #custom_carousel .controls li {
+            display: table-cell;
+            width: 1%;
+            max-width: 90px;
+        }
+        
+        #custom_carousel .controls li.active {
+            background-color: #eee;
+            border-top: 3px solid #AA1E22;
+        }
+        
+        #custom_carousel .controls a small {
+            overflow: hidden;
+            display: block;
+            font-size: 10px;
+            margin-top: 5px;
+            font-weight: bold
+        }
+    </style>
 
 </head>
 
@@ -186,98 +225,190 @@
                                     <!-- Tab panes -->
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="home-v">AWARDS
-<!--                                            <div class="container">-->
+                                            <!--                                            <div class="container">-->
 
-                                                <!-- /Page header -->
+                                            <!-- /Page header -->
 
-                                                <!-- Timeline -->
-                                                <div class="timeline">
+                                            <!-- Timeline -->
+                                            <div class="timeline">
 
-                                                    <!-- Line component -->
-                                                    <div class="line text-muted"></div>
+                                                <!-- Line component -->
+                                                <div class="line text-muted"></div>
 
-                                                    <!-- Separator -->
-                                                    <div class="separator text-muted">
-                                                        <time></time>
-                                                    </div>
-                                                    <!-- /Separator -->
-
-                                                    <!-- Panel -->
-                                                    <article class="panel panel-primary">
-
-                                                        <!-- Icon -->
-                                                        <div class="panel-heading icon">
-                                                            <!-- <i class="glyphicons glyphicons-ice-cream"></i> -->
-                                                            <i class="fa fa-graduation-cap"></i>
-                                                        </div>
-                                                        <!-- /Icon -->
-
-                                                        <!-- Body -->
-                                                        <div class="panel-body">
-                                                            <strong>IGNITE</strong>
-                                                            <br>
-                                                            <img src="img/Competitions/logo_ignite.png" class="img-responsive" width="200px">
-
-                                                        </div>
-                                                        <!-- /Body -->
-
-                                                    </article>
-                                                    <article class="panel panel-primary">
-
-                                                        <!-- Icon -->
-                                                        <div class="panel-heading icon">
-                                                            <i class="fa fa-trophy"></i>
-                                                        </div>
-                                                        <!-- /Icon -->
-
-                                                        <!-- Body -->
-                                                        <div class="panel-body">
-                                                            <strong>BICTA</strong>
-                                                            <br>
-                                                            <img src="img/Competitions/logo_bicta.gif" class="img-responsive" width="200px">
-
-                                                        </div>
-                                                        <!-- /Body -->
-
-                                                    </article>
-                                                    <article class="panel panel-primary">
-
-                                                        <!-- Icon -->
-                                                        <div class="panel-heading icon">
-                                                            <i class="fa fa-briefcase"></i>
-                                                        </div>
-                                                        <!-- /Icon -->
-
-                                                        <!-- Body -->
-                                                        <div class="panel-body">
-                                                            <strong>Other</strong> Competitions
-                                                        </div>
-                                                        <!-- /Body -->
-
-                                                    </article>
-                                                    <!-- /Panel -->
-
-
+                                                <!-- Separator -->
+                                                <div class="separator text-muted">
+                                                    <time></time>
                                                 </div>
-                                                <!-- /Timeline -->
+                                                <!-- /Separator -->
 
-<!--                                            </div>-->
-                                       
+                                                <!-- Panel -->
+                                                <article class="panel panel-primary">
 
+                                                    <!-- Icon -->
+                                                    <div class="panel-heading icon">
+                                                        <!-- <i class="glyphicons glyphicons-ice-cream"></i> -->
+                                                        <i class="fa fa-graduation-cap"></i>
+                                                    </div>
+                                                    <!-- /Icon -->
+
+                                                    <!-- Body -->
+                                                    <div class="panel-body">
+                                                        <strong>IGNITE</strong>
+                                                        <br>
+                                                        <img src="img/Competitions/logo_ignite.png" class="img-responsive" width="200px">
+
+                                                    </div>
+                                                    <!-- /Body -->
+
+                                                </article>
+                                                <article class="panel panel-primary">
+
+                                                    <!-- Icon -->
+                                                    <div class="panel-heading icon">
+                                                        <i class="fa fa-trophy"></i>
+                                                    </div>
+                                                    <!-- /Icon -->
+
+                                                    <!-- Body -->
+                                                    <div class="panel-body">
+                                                        <strong>BICTA</strong>
+                                                        <br>
+                                                        <img src="img/Competitions/logo_bicta.gif" class="img-responsive" width="200px">
+
+                                                    </div>
+                                                    <!-- /Body -->
+
+                                                </article>
+                                                <article class="panel panel-primary">
+
+                                                    <!-- Icon -->
+                                                    <div class="panel-heading icon">
+                                                        <i class="fa fa-briefcase"></i>
+                                                    </div>
+                                                    <!-- /Icon -->
+
+                                                    <!-- Body -->
+                                                    <div class="panel-body">
+                                                        <strong>Other</strong> Competitions
+                                                    </div>
+                                                    <!-- /Body -->
+
+                                                </article>
+                                                <!-- /Panel -->
+
+
+                                            </div>
+                                            <!-- /Timeline -->
+
+                                            <!--                                            </div>-->
+
+
+
+                                        </div>
+                                        <!--/Awards-->
+
+                                        <!-- Start Product Contents-->
+                                        <div class="tab-pane" id="profile-v">Product Contents.
+
+                                            <!-- Page Content -->
+                                            <div class="container">
+                                                <!-- First Featurette -->
+                                                <div class="featurette" id="about">
+                                                    <!------------------------code---------------start---------------->
+                                                    <div class="container-fluid">
+                                                        <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+                                                            <!-- Wrapper for slides -->
+                                                            <div class="carousel-inner">
+                                                                <div class="item active">
+                                                                    <div class="container-fluid">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3"><img src="img/Portfolio/foodfuel.png" class="img-responsive"></div>
+                                                                            <div class="col-md-9">
+                                                                                <h2>FOODFUEL</h2>
+                                                                                <p>FoodFuel is the brainchild of all founders of DotRoot Technologies. It is an innovative approach the traditional meal planning conundrum. Gone will be the days where orders are placed through telephone and queues. Via FoodFuel, users can order their meal on the go, and accumulate fuel points to fill their 'FuelBar' and earn rewards, discounts and many other benefits.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="container-fluid">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3"><img src="/img/Portfolio/eventloop.png" class="img-responsive"></div>
+                                                                            <div class="col-md-9">
+                                                                                <h2>EVENTLOOP</h2>
+                                                                                <p>EventLoop is a platform whereby it can identify unique hash tags from users on Instagram. With EventLoop, it can moderate the content posted by users. Any content with the unique hash tags (e.g. #DotRoot) specified with EventLoop can be moderated before they are viewed on screens as the posts are sent to the platform first. The platform, together with time sequence and looping, function shows all the posts on Instagram. With EventLoop admin can identify and moderate all photos related hash tags on Instagram posted by users. This is useful for corporate brand posts identification on social network such as Instagram. Time and date of posts can be seen it is on livefeed. EventLoop can also integrate with other Social network accounts such as Facebook and Twitter.</p>
+
+                                                                                <h3>FEATURES</h3>
+                                                                                <p>EventLoop can be used on TV Screens The public can post anything related with Corporate Brands with unique hash tags (#) specified with EventLoop on Instagram Admin can identify all the posts related All posts can be seen on any displays with varying sizes, with customizable time sequence and loop You can customize the background template based on the Event criteria.</p>
+
+                                                                                <h3>HELP YOUR BUSINESS</h3>
+                                                                                <p>EventLoop can provide a 360 degree view of your business or product from customer user experience, users can post on social media and the posts can be advertised to a larger audience. The posts act as digital testimonials and add value to your product.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="container-fluid">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3"><img src="img/Portfolio/moment.png" class="img-responsive"></div>
+                                                                            <div class="col-md-9">
+                                                                                <h2>MOMENT</h2>
+                                                                                <p>DotRoot believes that Brunei is ready to explore 3D Printing especially because Design and Technology has now become a core part of our national curriculum. It is the right time for DotRoot to distribute the Moment 3D Printer. The Moment 3D Printer is one of the cost-effective and efficient 3D printers in the market. As a desktop printer that works with Mac and Windows it allows easy access to anyone looking to explore 3D Printing. The software is easy to use, and the printer itself is easy to manage.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- End Item -->
+                                                            </div>
+                                                            <!-- End Carousel Inner -->
+                                                            <div class="controls">
+                                                                <ul class="nav">
+                                                                    <li data-target="#custom_carousel" data-slide-to="0" class="active">
+                                                                        <a href="#"><img src="img/Portfolio/foodfuel.png"><small>Food Fuel</small></a>
+                                                                    </li>
+                                                                    <li data-target="#custom_carousel" data-slide-to="1">
+                                                                        <a href="#"><img src="img/Portfolio/eventloop.png"><small>EventLoop</small></a>
+                                                                    </li>
+                                                                    <li data-target="#custom_carousel" data-slide-to="2">
+                                                                        <a href="#"><img src="img/Portfolio/moment.png"><small>Moment</small></a>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Carousel -->
+                                                    </div>
+                                                    <!----Code------end----------------------------------->
+                                                </div>
+                                                <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+                                            </div>
+                                            <!-- End of Product Contents-->
+
+                                        </div>
+
+
+
+
+
+
+
+
+                                        <div class="tab-pane" id="messages-v">Client Contents</div>
+
+                                        <div class="clearfix"></div>
 
                                     </div>
-                                    <!--/Awards-->
-                                    <div class="tab-pane" id="profile-v">Product Contents.</div>
-                                    <div class="tab-pane" id="messages-v">Client Contents</div>
                                 </div>
                             </div>
-
-                            <div class="clearfix"></div>
-
                         </div>
-                    </div>
-                </div>
-            </div>
     </section>
 
     <!--portfolio-->
@@ -548,23 +679,19 @@
             }
         });
     </script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36251023-1']);
-        _gaq.push(['_setDomainName', 'jqueryscript.net']);
-        _gaq.push(['_trackPageview']);
+    <!-- /Bootstrap Core JavaScript for Portfolio-->
 
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
+    <!-- Bootstrap Core JavaScript for Portfolio - Product-->
+    <script>
+        $(document).ready(function (ev) {
+            $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+                $('#custom_carousel .controls li.active').removeClass('active');
+                $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
+            })
+        });
     </script>
 
-    <!-- /Bootstrap Core JavaScript for Portfolio-->
+    <!-- /Bootstrap Core JavaScript for Portfolio - Product-->
 
     <!-- Bootstrap Core JavaScript for our Team -->
     <script src="js/bootstrap.min.js"></script>
