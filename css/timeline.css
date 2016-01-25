@@ -1,27 +1,33 @@
 .timeline {
     position: relative;
-    padding: 10px 60px 10px;
-    margin-top: 4px;
+    padding: 10px 10px 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 10px;
+    color: #E3DED6;
+    background-color: transparent;
+    border-color: #E3DED6;
 }
 
 .timeline .line {
     position: absolute;
     width: 4px;
     display: block;
-    background: currentColor;
+    background: #E3DED6;
     top: 0px;
     bottom: 0px;
     margin-left: 30px;
 }
 
 .timeline .separator {
-    border-top: 1px solid currentColor;
+    border-top: 1px solid #E3DED6;
     padding: 5px;
     padding-left: 40px;
     font-style: italic;
     font-size: .9em;
     margin-left: 30px;
+    margin-right: 10px;
 }
 
 .timeline .line::before { top: -4px; }
@@ -35,13 +41,14 @@
     height: 12px;
     display: block;
     border-radius: 50%;
-    background: currentColor;
+    background: #E3DED6;
 }
 
 .timeline .panel {
     position: relative;
-    margin: 10px 0px 21px 70px;
-    clear: both;
+    background-color: transparent;
+    margin: 10px 50px 10px 70px;
+     clear: both;
 }
 
 .timeline .panel::before {
@@ -54,6 +61,7 @@
     height: 0px;
     border: inherit;
     border-width: 12px;
+    border-color: #E3DED6;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -70,6 +78,8 @@
     border-radius: 50%;
     text-align: center;
     float: left;
+    background-color: #7C131C;
+    
 }
 
 .timeline .panel-outline {
@@ -80,6 +90,7 @@
 
 .timeline .panel-outline .panel-body {
     padding: 10px 0px;
+/*    border-color: black;*/
 }
 
 .timeline .panel-outline .panel-heading:not(.icon),
