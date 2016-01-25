@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/dotroot.css">
     <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css">
     <!-- Fonts-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="shortcut icon" href="../favicon.ico">
@@ -26,7 +27,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -478,6 +479,8 @@
     <script src="js/modernizr.custom.js"></script>
     <script src="js/toucheffects.js"></script>
     <script src="js/dotroot.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     <!-- /Bootstrap Core JavaScript for our Team -->
 
 </body>
