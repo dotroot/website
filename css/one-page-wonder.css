@@ -84,7 +84,7 @@
 }
 
 .price .list-group-item {
-    border-bottom-: 1px solid rgba(250, 250, 250, .5);
+    border-bottom: 1px solid rgba(250, 250, 250, .5);
 }
 
 .panel.price .list-group-item:last-child {
