@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- Portfolio Css Link -->
-    <link rel="stylesheet" href="css/verticalTab.css">
+    <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">
 
 </head>
 
@@ -163,29 +163,40 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">Portfolio</h2>
-                    <verticaltab>
-                        <inside>
-                            <div class="tabs">
-                                <nav> <a>Competition Won</a> <a>Products</a> <a>Clients</a> </nav>
-                                <div class="content">
-                                    <p>Competition Won Insert Time Line Here</p>
 
+                    <div class="container">
+                        <div class="row" style="min-height:10px;">
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="col-xs-3">
+                                    <!-- required for floating -->
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs tabs-left sideways">
+                                        <li class="active"><a href="#home-v" data-toggle="tab">Awards</a></li>
+                                        <li><a href="#profile-v" data-toggle="tab">Product</a></li>
+                                        <li><a href="#messages-v" data-toggle="tab">Clients</a></li>
+                                    </ul>
                                 </div>
-                                <div class="content">
-                                    <p>Product Insert Hover Here</p>
-                                    <p>Ut molestie, neque ac malesuada aliquet, orci ligula ornare lorem, et sagittis diam dolor id odio. Maecenas blandit dolor nec tincidunt vulputate. Proin ultrices dui vulputate ullamcorper molestie. Sed non orci id tortor commodo molestie. Curabitur lectus lacus, iaculis eu quam nec, congue rutrum felis. Morbi rhoncus metus a diam mattis, vel lacinia lectus ultricies. Quisque aliquet magna justo, quis pretium purus vulputate sit amet. Vivamus vehicula nisl eu sollicitudin efficitur. Curabitur egestas, felis vel tempus efficitur, felis nibh fermentum nulla, at gravida risus mauris sed sapien. Donec lobortis mi convallis tortor iaculis, sit amet vulputate libero mollis. Cras sagittis ligula eget est sodales tempor.</p>
+
+                                <div class="col-xs-9">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="home-v">Award Contents.</div>
+                                        <div class="tab-pane" id="profile-v">Product Contents.</div>
+                                        <div class="tab-pane" id="messages-v">Client Contents</div>
+                                    </div>
                                 </div>
-                                <div class="content">
-                                    <p>Insert Information About Clients Here</p>
-                                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tempor accumsan purus a rutrum. Nam congue tempor dui, vel auctor dolor tincidunt id. Proin fringilla consectetur urna. Fusce nec sodales turpis, eu rhoncus enim. Pellentesque pretium, dui et feugiat venenatis, sapien augue molestie quam, ac vulputate arcu quam et mauris. Duis lectus mi, congue ac tortor vel, maximus venenatis sem. Nam eget cursus sapien, sit amet rhoncus lacus. Vestibulum est justo, scelerisque ac erat eu, fermentum suscipit tellus. Aliquam velit nisi, feugiat ut arcu et, finibus efficitur lectus.</p>
-                                    <p>Nulla aliquam dapibus nunc, sed convallis sem semper sit amet. Mauris et ullamcorper lorem. Donec volutpat egestas massa, vitae porttitor mi venenatis sit amet. Nulla condimentum fermentum risus non mattis. Mauris ut posuere erat. Duis vel ante sit amet augue blandit facilisis. Nulla congue turpis at imperdiet porta. Nullam quis aliquet augue. Duis et arcu in augue fringilla sodales. Aliquam pulvinar elit non iaculis egestas. Nam risus enim, malesuada id augue a, sagittis pharetra quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend, ligula eget ultrices venenatis, metus neque finibus tortor, sit amet venenatis turpis nibh et odio.</p>
-                                </div>
+
+                                <div class="clearfix"></div>
+
                             </div>
-                        </inside>
-                    </verticaltab>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
     </section>
 
     <!--portfolio-->
