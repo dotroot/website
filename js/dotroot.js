@@ -27,3 +27,14 @@
 	    }, 250);
 	    $("#services h1").html(txt_orig);
 	});
+
+
+	$(document).ready(function () {
+	    $(window).scroll(function () { // check if scroll event happened
+	        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+	            $(".navbar-fixed-top").css("background-color", "rgb(34,29,28)"); // if yes, then change the color of class "navbar-fixed-top" to red rgb(227,222,214)
+	        } else {
+	            $(".navbar-fixed-top").css("background-color", "rgba(34,29,28,.3)"); // if not, change it back to transparent
+	        }
+	    });
+	});

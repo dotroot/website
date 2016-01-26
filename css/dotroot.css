@@ -1,7 +1,6 @@
-#mainNav {
-    border-color: rgba(34, 34, 34, .05);
-    font-family: ;
-    background-color: #AA1E22;
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(34, 29, 28, .3);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -11,12 +10,12 @@
     text-transform: uppercase;
     font-family: ;
     font-weight: 700;
-    color: black;
+    color: #aa1e22;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #6c6d71;
+    color: #e93030;
 }
 
 .navbar-default .nav > li>a,
@@ -24,7 +23,7 @@
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: #e3ded6;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -34,7 +33,7 @@
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #e93030!important;
+    color: #aa1e22!important;
     background-color: transparent;
 }
 
