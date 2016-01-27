@@ -346,3 +346,25 @@ footer {
     color: #AA1E22;
     padding: 20px 0;
 }
+
+
+/*Pop out*/
+.modal-body {
+    position: relative;
+    color: black;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 300px;
+    padding: 15px;
+}
+
+.modal-title{
+    color: black;
+}
+
+/*Client Section*/
+.clients{
+    text-align: center;
+    padding-top: 10x;
+    padding-bottom: 20px;
+}
