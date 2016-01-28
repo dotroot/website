@@ -2,6 +2,9 @@
 
 
 
+seperator{
+    margin: 0px;
+}
 /*
 li {
     color: aliceblue;
@@ -9,7 +12,6 @@ li {
 }
 */
 /* haslayout for IE6/7 */
-
 section.aw-accordion {
     width: 1200px;
     margin: 1px auto;
