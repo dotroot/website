@@ -8,19 +8,6 @@ li {
     margin: 5px;
 }
 */
-
-li {
-    color: #221D1C;
-    margin: 5px;
-}
-
-li span {
-    display: inline;
-    line-height: normal;
-    vertical-align: middle;
-}
-
-
 /* haslayout for IE6/7 */
 
 section.aw-accordion {
