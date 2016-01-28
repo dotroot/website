@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
+
+
+
+/*
+li {
+    color: aliceblue;
+    margin: 5px;
+}
+*/
+
+li {
+    color: #221D1C;
+    margin: 5px;
+}
+
+li span {
+    display: inline;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+
+/* haslayout for IE6/7 */
+
+section.aw-accordion {
+    width: 1200px;
+    margin: 1px auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.aw-accordion .one,
+section.aw-accordion .two,
+section.aw-accordion .three {
+    font-size: 14px;
+    width: 23%;
+    float: left;
+    height: 310px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    padding: 1%;
+    transition: all 200ms cubic-bezier(0.645, 0.575, 0.090, 1.000);
+    cursor: default;
+}
+
+section.aw-accordion .one span,
+section.aw-accordion .two span,
+section.aw-accordion .three span {
+    background: -webkit-linear-gradient(left, rgba(34, 29, 28, .5), rgba(34, 29, 28, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 100%;
+    display: table;
+}
+
+section.aw-accordion .one {
+    background-color: #E3DED6;
+    border-radius: 10px 0 0 10px;
+}
+
+section.aw-accordion .two {
+    background-color: #E3DED6;
+}
+
+section.aw-accordion .three {
+    background-color:  #E3DED6;
+    border-radius: 0 10px 10px 0;
+}
+
+section.aw-accordion .one:hover,
+section.aw-accordion .two:hover,
+section.aw-accordion .three:hover {
+    overflow-y: auto;
+}
+
+section.aw-accordion .one:hover span,
+section.aw-accordion .two:hover span,
+section.aw-accordion .three:hover span {
+    background: -webkit-linear-gradient(left, rgba(34, 29, 28, .7), rgba(34, 29, 28, .7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section.aw-accordion div::-webkit-scrollbar {
+    width: 12px;
+}
+
+section.aw-accordion div::-webkit-scrollbar-track {
+    background-color: rgba(1, 1, 1, .1);
+}
+
+section.aw-accordion div::-webkit-scrollbar-thumb {
+    background-color: rgba(1, 1, 1, .2);
+}
+
+section.aw-accordion div::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(1, 1, 1, .3);
+}
+
+section.aw-accordion div img {
+    float: left;
+    margin: 0 10px 0 0;
+    border: 3px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 15px rgba(1, 1, 1, .1);
+    -webkit-box-shadow: 0 0 15px rgba(1, 1, 1, .1);
+    -moz-box-shadow: 0 0 15px rgba(1, 1, 1, .1);
+    width: 150px;
+}
+
+section.aw-accordion div img,
+section.aw-accordion div h1 {
+    opacity: .3;
+    transition: all .3s
+}
+
+section.aw-accordion div:hover img,
+section.aw-accordion div:hover h1 {
+    opacity: 1;
+}
+
+section.aw-accordion div h1 {
+    margin: 0 0 5px;
+    font-weight: 100;
+    font-size: 22px;
+    color: #7C131C;
+}
+
+@media (max-width:1024px) {
+    section.aw-accordion .one,
+    section.aw-accordion .two,
+    section.aw-accordion .three {
+        font-size: 12px;
+    }
+    section.aw-accordion div img {
+        width: 80px;
+    }
+    section.aw-accordion div h1 {
+        font-size: 120%
+    }
+}
+
+@media (max-width:768px) {
+    section.aw-accordion div img {
+        width: 60px;
+    }
+    section.aw-accordion div h1 {
+        font-size: 100%
+    }
+}
+
+
+/* Styling Demo */
+
+section.aw-accordion > h1 {
+    color: #233445;
+    display: block;
+    width: 100%;
+}
+
+section.aw-accordion > h1 > .read-article {
+    color: #233445;
+    border-radius: 5px;
+    border: 1px solid #233445;
+    padding: 4px 8px;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 80%;
+}
+
+section.aw-accordion > h1 > .read-article:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+@media (max-width:768px) {
+    section.aw-accordion {
+        width: 100%;
+    }
+    section.aw-accordion h1 {
+        font-size: 80%;
+        letter-spacing: -1px;
+    }
+}
