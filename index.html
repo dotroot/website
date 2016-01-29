@@ -67,12 +67,9 @@
         
         #map-container {
             height: 300px;
-            max-width: 100em;
-            width: 100%;
+            max-width: 100em; 
             margin-top: 20px;
             margin-bottom: 30px;
-            margin-left: -15px;
-            margin-right: -10px;
         }
     </style>
 
@@ -656,8 +653,8 @@
         <div class="col-md-12">
             <h2 class="text-center">Contact Us</h2>
         </div>
-        <div class="col-md-12">
-            <div id="map-container" class="col-md-6"></div>
+        <div class="col-md-12 map">
+            <div id="map-container"></div>
             <!-- jquery Bootstrap's JavaScript plugins -->
             <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
             <!-- google API-->
@@ -898,7 +895,6 @@
 
                 google.maps.event.addDomListener(window, 'load', init_map);
             </script>
-
         </div>
         <div class="container">
             <div class="row">
