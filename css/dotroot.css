@@ -6,6 +6,7 @@
                     -webkit-transition: all .35s;
                     -moz-transition: all .35s;
                     transition: all .35s;
+                    z-index: 99999;
                 }
                 
                 .navbar-default .navbar-header .navbar-brand {
@@ -143,7 +144,7 @@
                 
                 #grid li#icographics {
                     left: 70%;
-                    top: 60.5%;
+                    top: 58.5%;
                     width: 43px;
                 }
                 
@@ -155,7 +156,7 @@
                 }
                 
                 #grid li#icomultimedia {
-                    left: 5.8%;
+                    left: 4.5%;
                     top: 25%;
                     width: 68px;
                 }

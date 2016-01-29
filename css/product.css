@@ -1,17 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
-
-
-
-seperator{
+seperator {
     margin: 0px;
 }
+
+
 /*
 li {
     color: aliceblue;
     margin: 5px;
 }
 */
+
+
 /* haslayout for IE6/7 */
+
 section.aw-accordion {
     width: 1200px;
     margin: 1px auto;
@@ -56,7 +58,7 @@ section.aw-accordion .two {
 }
 
 section.aw-accordion .three {
-    background-color:  #E3DED6;
+    background-color: #E3DED6;
     border-radius: 0 10px 10px 0;
 }
 
@@ -168,7 +170,8 @@ section.aw-accordion > h1 > .read-article:hover {
 
 @media (max-width:768px) {
     section.aw-accordion {
-        width: 100%;
+        width: 80vw;
+        margin-left: 4.5vw;
     }
     section.aw-accordion h1 {
         font-size: 80%;
