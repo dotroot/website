@@ -144,7 +144,7 @@
                 
                 #grid li#icographics {
                     left: 70%;
-                    top: 58.5%;
+                    top: 60.5%;
                     width: 43px;
                 }
                 
@@ -306,7 +306,8 @@
                 @media (max-width: 768px) {
                     #services .imgDescription1 {
                         font-size: 2.5vw;
-                        top: 130%;
+                        top: 140%;
+                        right: 60%;
                         width: 300%;
                     }
                 }
@@ -318,20 +319,56 @@
                 }
                 
                 @media (max-width: 768px) {
+                    #services .imgDescription2 {
+                        font-size: 2.5vw;
+                        top: 80%;
+                        right: 320%;
+                        width: 300%;
+                    }
+                }
+                
+                @media (max-width: 768px) {
                     #services .imgWrap3 {
                         width: 5vw;
                     }
                 }
                 
                 @media (max-width: 768px) {
+                    #services .imgDescription3 {
+                        font-size: 2.5vw;
+                        bottom: 90%;
+                        right: 399%;
+                        width: 300%;
+                    }
+                }
+                
+                @media (max-width: 768px) {
                     #services .imgWrap4 {
-                        width: 10vw;
+                        width: 9vw;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    #services .imgDescription4 {
+                        font-size: 2.5vw;
+                        bottom: 84%;
+                        left: 135%;
+                        width: 300%;
                     }
                 }
                 
                 @media (max-width: 768px) {
                     #services .imgWrap5 {
                         width: 9.5vw;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    #services .imgDescription5 {
+                        font-size: 2.5vw;
+                        top: 50%;
+                        left: 233%;
+                        width: 300%;
                     }
                 }
                 /*END SERVICES*/
@@ -418,6 +455,7 @@
                     padding-top: 10x;
                     padding-bottom: 20px;
                 }
-.map {
-    padding:0px;
-}
+                
+                .map {
+                    padding: 0px;
+                }
