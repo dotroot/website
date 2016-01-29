@@ -455,7 +455,13 @@
                     padding-top: 10x;
                     padding-bottom: 20px;
                 }
+<<<<<<< Updated upstream
                 
                 .map {
                     padding: 0px;
                 }
+=======
+.map {
+    padding:0px;
+}
+>>>>>>> Stashed changes
