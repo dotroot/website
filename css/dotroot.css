@@ -51,7 +51,7 @@
                 #about {
                     background-color: #AA1E22;
                     color: white;
-                    padding: 20px 45px;
+                    padding: 50px 45px;
                 }
                 
                 #about h2 {
@@ -82,6 +82,7 @@
                 #services {
                     background-color: #FFFFFF;
                     color: #AA1E22;
+                    padding-top: 50px;
                 }
                 
                 #services .servicesbg {
@@ -398,7 +399,7 @@
                 #portfolio {
                     background-color: #AA1E22;
                     color: white;
-                    padding: 20px 20px;
+                    padding: 50px 20px;
                 }
                 
                 #portfolio h2 {
@@ -446,6 +447,7 @@
                 #ourteam {
                     background-color: #FFFFFF;
                     color: #AA1E22;
+                    padding-top: 50px;
                 }
                 
                 #ourteam h2 {
@@ -495,7 +497,7 @@
                     color: white;
                     padding-left: 0px;
                     padding-right: 0px;
-                    padding-top: 20px;
+                    padding-top: 50px;
                     padding-bottom: 20px;
                 }
                 
