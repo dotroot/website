@@ -2,16 +2,30 @@
 $('.modal-thumb').each( function () {
     img = new Image();
     img.src = $(this).data('modal-src');
+    
 });
+
+
+// ADDED
+//$('.modal-thumb').each( function () {
+//    img = new Image();
+//    img.src = $(this).data('modal-newimage');
+//    
+//});
+
+
 
 $('.modal-thumb').on('click', function () {
     var title = $(this).data('modal-title'),
         src = $(this).data('modal-src'),
-        captiontext = $(this).data('modal-caption');
+        captiontext = $(this).data('modal-caption'),
+        newimage = $(this).data('modal-newimage'); //added
+   
     
     $('#modal h4').text(title);
-    $('#modal img').attr('src', src);
+    $('#modal #firstimage').attr('src', src);
     $('#modal h5').text(captiontext);
+    $('#modal #anotherimage').attr('src', newimage); //added
 
     $('#modal').modal('show');
 });
