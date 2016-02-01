@@ -58,12 +58,14 @@
                     font-family: Roboto;
                     font-weight: 400;
                     color: #e3ded6;
+                    text-align: center;
                 }
                 
                 #about h3 {
                     font-family: Work Sans;
                     font-weight: 300;
                     color: #e3ded6;
+                    
                 }
                 
                 #about p {
