@@ -63,9 +63,8 @@
                 
                 #about h3 {
                     font-family: Work Sans;
-                    font-weight: 300;
+                    font-weight: 400;
                     color: #e3ded6;
-                    
                 }
                 
                 #about p {
@@ -83,7 +82,6 @@
                 #services {
                     background-color: #FFFFFF;
                     color: #AA1E22;
-                    padding: 20px;
                 }
                 
                 #services .servicesbg {
@@ -114,6 +112,7 @@
                     color: black;
                     font-family: Roboto;
                     font-weight: 500;
+                    padding: 20px;
                 }
                 
                 #swrap {
@@ -402,9 +401,37 @@
                     padding: 20px 20px;
                 }
                 
+                #portfolio h2 {
+                    color: #fff;
+                    font-family: Roboto;
+                    font-weight: 400;
+                }
+                
+                #portfolio h3 {
+                    color: white;
+                    font-family: Lato;
+                    font-weight: 300;
+                }
+                
+                #portfolio strong {
+                    color: #fff;
+                    font-family: Lato;
+                    font-weight: 300;
+                }
+                
+                #portfolio span {
+                    font-family: Roboto;
+                    font-weight: 400;
+                }
+                
+                #portfolio .clients h4 {
+                    font-family: Roboto;
+                    font-weight: 300;
+                }
+                
                 @media (max-width: 768px) {
                     .tab-content {
-                        width: 200px;
+                        width: 70vw;
                     }
                 }
                 
@@ -419,6 +446,28 @@
                 #ourteam {
                     background-color: #FFFFFF;
                     color: #AA1E22;
+                }
+                
+                #ourteam h2 {
+                    color: black;
+                    font-family: Roboto;
+                    font-weight: 500;
+                    padding: 20px;
+                }
+                
+                #ourteam h3 {
+                    font-family: Roboto;
+                    font-weight: 400;
+                }
+                
+                #ourteam span {
+                    font-family: Roboto;
+                    font-weight: 300;
+                }
+                
+                #ourteam h5 {
+                    font-family: Roboto;
+                    font-weight: 200;
                 }
                 
                 @media (max-width: 768px) {
@@ -450,8 +499,28 @@
                     padding-bottom: 20px;
                 }
                 
+                #contactus h2 {
+                    color: #fff;
+                    font-family: Roboto;
+                    font-weight: 400;
+                }
+                
                 #contactus h5 {
                     color: white;
+                    font-family: Work Sans;
+                    font-weight: 300;
+                }
+                
+                #contactus p {
+                    color: white;
+                    font-family: Work Sans;
+                    font-weight: 400;
+                }
+                
+                #contactus label {
+                    color: white;
+                    font-family: Work Sans;
+                    font-weight: 400;
                 }
                 /*END CONTACT US*/
                 /*FOOTER*/
