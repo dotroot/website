@@ -495,3 +495,21 @@
                     top: 85px;
                     left: 100px;
                 }
+                
+                .email {
+                    position: absolute;
+                    top: 175px;
+                    left: 100px;
+                }
+                
+                .facebook {
+                    position: absolute;
+                    top: 255px;
+                    left: 100px;
+                }
+                
+                .instagram {
+                    position: absolute;
+                    top: 335px;
+                    left: 100px;
+                }
