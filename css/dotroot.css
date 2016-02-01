@@ -108,6 +108,12 @@
                     }
                 }
                 
+                #services h2 {
+                    color: black;
+                    font-family: Roboto;
+                    font-weight: 500;
+                }
+                
                 #swrap {
                     left: 20%;
                     top: 33%;
@@ -178,6 +184,8 @@
                     visibility: hidden;
                     opacity: 0;
                     color: black;
+                    font-family: Roboto;
+                    font-weight: 300;
                     /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -205,6 +213,8 @@
                     visibility: hidden;
                     opacity: 0;
                     color: black;
+                    font-family: Roboto;
+                    font-weight: 300;
                     /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -232,6 +242,8 @@
                     visibility: hidden;
                     opacity: 0;
                     color: black;
+                    font-family: Roboto;
+                    font-weight: 300;
                     /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -259,6 +271,8 @@
                     visibility: hidden;
                     opacity: 0;
                     color: black;
+                    font-family: Roboto;
+                    font-weight: 300;
                     /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -286,6 +300,8 @@
                     visibility: hidden;
                     opacity: 0;
                     color: black;
+                    font-family: Roboto;
+                    font-weight: 300;
                     /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -430,6 +446,10 @@
                     padding-right: 0px;
                     padding-top: 20px;
                     padding-bottom: 20px;
+                }
+                
+                #contactus h5 {
+                    color: white;
                 }
                 /*END CONTACT US*/
                 /*FOOTER*/
