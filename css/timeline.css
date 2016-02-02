@@ -1,3 +1,5 @@
+/*Timeline*/
+
 .timeline {
     position: relative;
     padding: 10px 10px 10px;
@@ -109,3 +111,6 @@
 .timeline .panel-outline .panel-footer {
     display: none;
 }
+
+
+/*End Timeline*/
