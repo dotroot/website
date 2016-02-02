@@ -30,11 +30,11 @@
 
 
 	$(document).ready(function () {
-	    $(window).scroll(function () { // check if scroll event happened
-	        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-	            $(".navbar-fixed-top").css("background-color", "rgb(34,29,28)"); // if yes, then change the color of class "navbar-fixed-top" to red rgb(227,222,214)
+	    $(window).scroll(function () {
+	        if ($(document).scrollTop() > 50) {
+	            $(".navbar-fixed-top").css("background-color", "rgb(34,29,28)");
 	        } else {
-	            $(".navbar-fixed-top").css("background-color", "rgba(34,29,28,.3)"); // if not, change it back to transparent
+	            $(".navbar-fixed-top").css("background-color", "rgba(34,29,28,.3)");
 	        }
 	    });
 	});
@@ -46,15 +46,6 @@
 	    img.src = $(this).data('modal-src');
 
 	});
-
-
-	// ADDED
-	//$('.modal-thumb').each( function () {
-	//    img = new Image();
-	//    img.src = $(this).data('modal-newimage');
-	//    
-	//});
-
 
 
 	$('.modal-thumb').on('click', function () {
@@ -87,9 +78,6 @@
 	//end popout
 
 	//Modernizr.custom
-	/* Modernizr 2.6.2 (Custom Build) | MIT & BSD
-	 * Build: http://modernizr.com/download/#-touch-shiv-cssclasses-teststyles-prefixes-load
-	 */
 	;
 	window.Modernizr = function (a, b, c) {
 	        function w(a) {
@@ -430,21 +418,15 @@
 	//end Modernizr.custom
 
 	//Toucheffects
-	/** Used Only For Touch Devices **/
 	(function (window) {
 
-	    // for touch devices: add class cs-hover to the figures when touching the items
 	    if (Modernizr.touch) {
 
-	        // classie.js https://github.com/desandro/classie/blob/master/classie.js
-	        // class helper functions from bonzo https://github.com/ded/bonzo
 
 	        function classReg(className) {
 	            return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
 	        }
 
-	        // classList support for class management
-	        // altho to be fair, the api sucks because it won't accept multiple classes at once
 	        var hasClass, addClass, removeClass;
 
 	        if ('classList' in document.documentElement) {
@@ -513,49 +495,6 @@
 	//End Toucheffects
 
 	//Jquery.easing.min
-	/*
-	 * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
-	 *
-	 * Uses the built in easing capabilities added In jQuery 1.1
-	 * to offer multiple easing options
-	 *
-	 * TERMS OF USE - EASING EQUATIONS
-	 * 
-	 * Open source under the BSD License. 
-	 * 
-	 * Copyright Ã‚Â© 2001 Robert Penner
-	 * All rights reserved.
-	 *
-	 * TERMS OF USE - jQuery Easing
-	 * 
-	 * Open source under the BSD License. 
-	 * 
-	 * Copyright Ã‚Â© 2008 George McGinley Smith
-	 * All rights reserved.
-	 *
-	 * Redistribution and use in source and binary forms, with or without modification, 
-	 * are permitted provided that the following conditions are met:
-	 * 
-	 * Redistributions of source code must retain the above copyright notice, this list of 
-	 * conditions and the following disclaimer.
-	 * Redistributions in binary form must reproduce the above copyright notice, this list 
-	 * of conditions and the following disclaimer in the documentation and/or other materials 
-	 * provided with the distribution.
-	 * 
-	 * Neither the name of the author nor the names of contributors may be used to endorse 
-	 * or promote products derived from this software without specific prior written permission.
-	 * 
-	 * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
-	 * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-	 * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-	 *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-	 *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-	 *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
-	 * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-	 *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
-	 * OF THE POSSIBILITY OF SUCH DAMAGE. 
-	 *
-	 */
 	jQuery.easing.jswing = jQuery.easing.swing;
 	jQuery.extend(jQuery.easing, {
 	    def: "easeOutQuad",
@@ -785,8 +724,8 @@
 	});
 	//end scrolling-nav
 
-	//    <!-- Bootstrap Core JavaScript for Portfolio-->
-	//    <script>
+	//Tabs
+
 	$(function () {
 	    $('.tabs nav a').on('click', function () {
 	        show_content($(this).index());
@@ -804,15 +743,11 @@
 	        $('.tabs nav a:nth-of-type(' + (index + 1) + ')').addClass('selected');
 	    }
 	});
-	//    </script>
-	//    <!-- /Bootstrap Core JavaScript for Portfolio-->
+	//end tabs
 
-	//    <!-- Bootstrap Core JavaScript for Portfolio - Product-->
-	//    <script>
+	//accordion
 	$("section.aw-accordion div").mouseover(function () {
 	    $(this).css('width', '50%');
 	    $(this).siblings('div').css('width', '14%');
 	});
-	//    </script>
-	//
-	//    <!-- /Bootstrap Core JavaScript for Portfolio - Product-->
+	//end accordion

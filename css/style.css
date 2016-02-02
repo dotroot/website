@@ -13,9 +13,6 @@ html {
     margin: 0;
 }
 
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -227,9 +224,6 @@ ul.icon {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 .imgWrap1:hover .imgDescription1 {
@@ -258,9 +252,6 @@ ul.icon {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 .imgWrap2:hover .imgDescription2 {
@@ -289,9 +280,6 @@ ul.icon {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 .imgWrap3:hover .imgDescription3 {
@@ -320,9 +308,6 @@ ul.icon {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 .imgWrap4:hover .imgDescription4 {
@@ -351,9 +336,6 @@ ul.icon {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 .imgWrap5:hover .imgDescription5 {
@@ -5691,13 +5673,6 @@ footer {
 
 /*Scrolling-nav*/
 
-
-/*!
- * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     width: 100%;
     height: 100%;
@@ -5760,23 +5735,9 @@ of those sections to manage the look and feel of the site. */
 /*Hover*/
 
 
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.0.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
-
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
-
- * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
- */
-
-
 /* 2D TRANSITIONS */
 
-
+f
 /* Grow */
 
 .hvr-grow {
@@ -11351,15 +11312,6 @@ hr {
 
 /*Vertical Tabs*/
 
-
-/*!
- * bootstrap-vertical-tabs - v1.2.1
- * https://dbtek.github.io/bootstrap-vertical-tabs
- * 2014-11-07
- * Copyright (c) 2014 İsmail Demirbilek
- * License: MIT
- */
-
 .tabs-left,
 .tabs-right {
     border-bottom: none;
@@ -11474,17 +11426,6 @@ hr {
 seperator {
     margin: 0px;
 }
-
-
-/*
-li {
-    color: aliceblue;
-    margin: 5px;
-}
-*/
-
-
-/* haslayout for IE6/7 */
 
 section.aw-accordion {
     width: 1200px;
