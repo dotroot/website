@@ -615,7 +615,7 @@ footer {
 
 .address {
     position: absolute;
-    top: -3px;
+    top: -12px;
     left: 100px;
 }
 
@@ -11642,3 +11642,9 @@ section.aw-accordion > h1 > .read-article:hover {
 
 </style>
 /*end Carousel*/
+
+@media (max-width: 768px) {
+    .ignitepic {
+        width: 5vw;
+        font-size: 3.5vw;
+    }
