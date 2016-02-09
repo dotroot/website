@@ -567,7 +567,7 @@ ol.type li a:hover {
 /* Team Section */
 
 #team-section {
-    padding: 80px 0;
+    padding: 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
     background: rgb(124, 19, 28);
     /* Old browsers */
@@ -643,6 +643,10 @@ img.img-circle.team-img {
     background: #aa1e22;
 }
 
+#portfolio-grid .mix {
+    opacity: 0;
+    display: none;
+}
 
 /* Testimonials Section */
 
@@ -670,6 +674,85 @@ img.img-circle.team-img {
     margin: 0 0 30px 0;
 }
 
+/*
+Thumbnails - Predefined bootstrap's thumbnail class.
+*/
+ .thumbnail {
+    width:100%;
+    height:100%;
+    padding: 8px;
+    overflow: hidden;
+    position: relative;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    text-align:center;
+    background: #191a1c;
+}
+.thumbnail .more {
+    display:block;
+    z-index:4;
+    position:absolute;
+    top:-100px;
+    left:50%;
+    margin:0 auto;
+    margin-left:-41px;
+    width:80px;
+    height:80px;
+    font-size:40px;
+    color:#fff;
+    text-decoration:none;
+    line-height: 70px;
+    text-align: center;
+}
+.thumbnail:hover .more {
+    top:40%;
+    margin-top:-40px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3 s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.thumbnail h3, 
+.thumbnail p {
+    margin:0;
+    position:relative;
+    z-index:4;
+	margin-top: 20px;
+	
+}
+.thumbnail h3 {
+    color: #E3DED6;
+    margin-top:15px;
+    font-size:15px;
+}
+.thumbnail > p {
+	padding-bottom:2px;
+}
+.thumbnail .mask {
+    opacity:0.85;
+    filter: alpha(opacity=85);
+    top:100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#221D1C;
+    position:absolute;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2 s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.thumbnail:hover .mask {
+    top:0;
+}
+
+#teambox p{
+	padding: 20px;
+	text-align: justify;
+}
 
 /* Contact Section */
 
@@ -871,3 +954,10 @@ a:focus,
         width: 100px;
         height: 100px;
     }
+
+#portfolio-grid {
+	
+	padding: 0px;
+	
+	
+}
