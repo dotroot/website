@@ -837,3 +837,37 @@ a:focus,
         padding: 22% 10%;
     }
 }
+
+
+/* CLIENT CAROUSEL STYLES */
+.clients-carousel {
+    margin-top: 10px; /*SMALL TOP MARGIN FOR SPACE */
+    padding: 0 100px 10px 100px;
+}
+
+    .clients-carousel .thumbnail {
+        background-color: rgba(0, 0, 0, 0.0);
+        border: 0px solid #FFFFFF;
+    }
+
+    .clients-carousel .carousel-control.left {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+/*        background: #F00;*/
+        left: 150px;
+    }
+
+    .clients-carousel .carousel-control.right {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+/*        background: #F00;*/
+        right: 150px;
+    }
+
+    .clients-carousel img {
+        align-content: center;
+        width: 100px;
+        height: 100px;
+    }

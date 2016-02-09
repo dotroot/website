@@ -751,3 +751,13 @@
 	    $(this).siblings('div').css('width', '14%');
 	});
 	//end accordion
+
+
+
+//Clients Script
+
+$(document).ready(function () {
+            $("#clients-slider").carousel({
+                interval: 50000 //TIME IN MILLI SECONDS
+            });
+        });
