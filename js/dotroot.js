@@ -758,6 +758,6 @@
 
 $(document).ready(function () {
             $("#clients-slider").carousel({
-                interval: 50000 //TIME IN MILLI SECONDS
+                interval: 7000 //TIME IN MILLI SECONDS
             });
         });
