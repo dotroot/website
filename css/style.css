@@ -219,6 +219,12 @@ header p {
     letter-spacing: 2px;
 }
 
+@media (max-width: 768px) {
+    .intro-text h1 {
+        font-size: 60px;
+    }
+}
+
 .color {
     color: #aa1e22;
 }
@@ -648,6 +654,7 @@ img.img-circle.team-img {
     display: none;
 }
 
+
 /* Testimonials Section */
 
 #testimonials-section {
@@ -674,85 +681,94 @@ img.img-circle.team-img {
     margin: 0 0 30px 0;
 }
 
+
 /*
 Thumbnails - Predefined bootstrap's thumbnail class.
 */
- .thumbnail {
-    width:100%;
-    height:100%;
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
     padding: 8px;
     overflow: hidden;
     position: relative;
-    border:0;
-    border-radius:0;
-    box-shadow:none;
-    text-align:center;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
     background: #191a1c;
 }
+
 .thumbnail .more {
-    display:block;
-    z-index:4;
-    position:absolute;
-    top:-100px;
-    left:50%;
-    margin:0 auto;
-    margin-left:-41px;
-    width:80px;
-    height:80px;
-    font-size:40px;
-    color:#fff;
-    text-decoration:none;
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    margin: 0 auto;
+    margin-left: -41px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
     line-height: 70px;
     text-align: center;
 }
+
 .thumbnail:hover .more {
-    top:40%;
-    margin-top:-40px;
+    top: 40%;
+    margin-top: -40px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3 s ease-out;
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.thumbnail h3, 
+
+.thumbnail h3,
 .thumbnail p {
-    margin:0;
-    position:relative;
-    z-index:4;
-	margin-top: 20px;
-	
+    margin: 0;
+    position: relative;
+    z-index: 4;
+    margin-top: 20px;
 }
+
 .thumbnail h3 {
     color: #E3DED6;
-    margin-top:15px;
-    font-size:15px;
+    margin-top: 15px;
+    font-size: 15px;
 }
+
 .thumbnail > p {
-	padding-bottom:2px;
+    padding-bottom: 2px;
 }
+
 .thumbnail .mask {
-    opacity:0.85;
+    opacity: 0.85;
     filter: alpha(opacity=85);
-    top:100%;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#221D1C;
-    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #221D1C;
+    position: absolute;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2 s ease-out;
     -ms-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
+
 .thumbnail:hover .mask {
-    top:0;
+    top: 0;
 }
 
-#teambox p{
-	padding: 20px;
-	text-align: justify;
+#teambox p {
+    padding: 20px;
+    text-align: justify;
 }
+
 
 /* Contact Section */
 
@@ -884,13 +900,13 @@ a:focus,
 }
 
 #map-canvas {
-	height: 300px;
-	width: 100%;
-	margin-bottom: 40px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .map {
-	padding: 0px;
+    padding: 0px;
 }
 
 
@@ -933,41 +949,40 @@ a:focus,
 
 
 /* CLIENT CAROUSEL STYLES */
+
 .clients-carousel {
-    margin-top: 10px; /*SMALL TOP MARGIN FOR SPACE */
+    margin-top: 10px;
+    /*SMALL TOP MARGIN FOR SPACE */
     padding: 0 100px 10px 100px;
 }
 
-    .clients-carousel .thumbnail {
-        background-color: rgba(0, 0, 0, 0.0);
-        border: 0px solid #FFFFFF;
-    }
+.clients-carousel .thumbnail {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px solid #FFFFFF;
+}
 
-    .clients-carousel .carousel-control.left {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-/*        background: #F00;*/
-        left: 150px;
-    }
+.clients-carousel .carousel-control.left {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    /*        background: #F00;*/
+    left: 150px;
+}
 
-    .clients-carousel .carousel-control.right {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-/*        background: #F00;*/
-        right: 150px;
-    }
+.clients-carousel .carousel-control.right {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    /*        background: #F00;*/
+    right: 150px;
+}
 
-    .clients-carousel img {
-        align-content: center;
-        width: 100px;
-        height: 100px;
-    }
+.clients-carousel img {
+    align-content: center;
+    width: 100px;
+    height: 100px;
+}
 
 #portfolio-grid {
-	
-	padding: 0px;
-	
-	
+    padding: 0px;
 }
