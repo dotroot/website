@@ -883,6 +883,16 @@ a:focus,
     outline-offset: none;
 }
 
+#map-canvas {
+	height: 300px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.map {
+	padding: 0px;
+}
+
 
 /* Footer */
 
