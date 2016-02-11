@@ -284,13 +284,11 @@ header p {
     background: #494949;
     margin-bottom: 6px;
     border-radius: 10%;
-    /*	color: #f3ca27;*/
     color: #e93030;
     transition: all 0.5s;
 }
 
 #services-section .service:hover>i.fa {
-    /*	background: #0b3540;*/
     background: #6c6d71;
 }
 
@@ -985,4 +983,9 @@ a:focus,
 
 #portfolio-grid {
     padding: 0px;
+}
+
+.type {
+    position: relative;
+    right: 50px;
 }
