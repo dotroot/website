@@ -447,7 +447,7 @@ header p {
 }
 
 #services-section h4 {
-    color: #908f90;
+    color: #e3ded6;
     text-transform: uppercase;
 }
 
@@ -461,15 +461,15 @@ header p {
     width: 100px;
     height: 80px;
     padding: 22px 25px;
-    background: #494949;
+    background: #65101e;
     margin-bottom: 6px;
     border-radius: 10%;
-    color: #e93030;
+    color: #e3ded6;
     transition: all 0.5s;
 }
 
 #services-section .service:hover>i.fa {
-    background: #6c6d71;
+    background: #ef5050;
 }
 
 
