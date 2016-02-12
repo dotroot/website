@@ -931,7 +931,7 @@ Thumbnails - Predefined bootstrap's thumbnail class.
     margin: 0;
     position: relative;
     z-index: 4;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .thumbnail h3 {
